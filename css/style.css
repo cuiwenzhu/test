@@ -1,0 +1,109 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-01 10:24:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-01 11:06:00
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+a, i, u, em, b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal;
+  color: #333; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+a {
+  text-decoration: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: .3rem;
+  background: #f3f3fe; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  margin-bottom: .2rem; }
+  .header p {
+    flex: 1;
+    text-align: center;
+    height: 1rem; }
+    .header p a {
+      color: #ccc;
+      display: inline-block;
+      height: 1rem;
+      line-height: 1rem; }
+  .header .cur {
+    color: #2f56f3;
+    border-bottom: 1px solid #2f56f3; }
+
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #fff; }
+  .main .swiper-container {
+    width: 100%; }
+
+.cont {
+  width: 90%;
+  margin: .3rem auto;
+  border-radius: 5px;
+  border: 1px solid #ccc; }
+  .cont .top {
+    height: 1.3rem;
+    background: #fd6060;
+    position: relative; }
+    .cont .top img {
+      width: .5rem;
+      height: .5rem;
+      margin: 0.2rem 0.35rem 0 0.4rem; }
+    .cont .top span {
+      color: #fff;
+      font-size: .7rem;
+      margin-top: .2rem; }
+    .cont .top b {
+      color: #fff;
+      font-size: .6rem;
+      position: absolute;
+      bottom: .3rem;
+      right: .3rem; }
+  .cont .bom {
+    padding-bottom: .2rem; }
+    .cont .bom p {
+      width: 100%;
+      height: .6rem;
+      line-height: .6rem; }
+      .cont .bom p b {
+        width: .6rem;
+        height: .6rem;
+        display: inline-block;
+        background: url(../img/b.png) no-repeat 0 0; }
+    .cont .bom .bg {
+      color: #009543; }
+
+/*# sourceMappingURL=style.css.map */
